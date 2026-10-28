@@ -103,3 +103,37 @@ def classify_regime(area_history, steps):
     # Если растёт быстро — неограниченный рост
     else:
         return "unbounded"
+
+def pairwise_distances(positions):
+    """Матрица попарных расстояний между муравьями."""
+    n = len(positions)
+    if n < 2:
+        return np.zeros((0, 0))
+    D = np.zeros((n, n))
+    for i in range(n):
+        for j in range(i + 1, n):
+            di = positions[i][0] - positions[j][0]
+            dj = positions[i][1] - positions[j][1]
+            d = float(np.hypot(di, dj))
+            D[i, j] = d
+            D[j, i] = d
+    return D
+
+
+def min_pairwise_distance(positions):
+    """Минимальное расстояние между любой парой муравьёв."""
+    D = pairwise_distances(positions)
+    if D.size == 0:
+        return None
+    # верхний треугольник, без диагонали
+    upper = D[np.triu_indices_from(D, k=1)]
+    return float(upper.min())
+
+
+def mean_pairwise_distance(positions):
+    """Среднее расстояние между всеми парами муравьёв."""
+    D = pairwise_distances(positions)
+    if D.size == 0:
+        return None
+    upper = D[np.triu_indices_from(D, k=1)]
+    return float(upper.mean())

@@ -15,6 +15,7 @@ from src.visualize import (
     save_frame,
     create_multicolor_gif,
     create_multi_ant_gif,
+    plot_interaction_metrics,
     CMAP_2,
     ANT_COLORS,
 )
@@ -197,6 +198,14 @@ def run_l3(ants, width, height, steps, update, collisions, boundary,
         fig.savefig(frame_path, dpi=150, bbox_inches="tight")
         plt.close(fig)
         click.echo(f"[visualize] Кадр сохранён: {frame_path}")
+
+    # 3. ГРАФИК МЕТРИК ВЗАИМОДЕЙСТВИЯ
+    if ants >= 2:
+        plot_interaction_metrics(
+            result,
+            path=os.path.join(output, "interaction_metrics.png"),
+        )
+        click.echo(f"[visualize] График: {os.path.join(output, 'interaction_metrics.png')}")
 
     click.echo("\n=== Сводка ===")
     click.echo(f"  муравьёв: {ants}")

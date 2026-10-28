@@ -99,7 +99,9 @@ def run_l3_scenario(n_ants=2, width=100, height=100, steps=5000,
                     update="sequential", collisions="allow",
                     boundary="torus", record_every=25,
                     rules=None, start_positions=None):
-    """Запускает один сценарий L3."""
+    """Запускает один сценарий L3 + собирает метрики взаимодействия."""
+    from src.metrics import min_pairwise_distance, mean_pairwise_distance
+
     world = MultiAntWorld(
         width=width, height=height, n_ants=n_ants,
         update=update, collisions=collisions, boundary=boundary,
@@ -109,10 +111,19 @@ def run_l3_scenario(n_ants=2, width=100, height=100, steps=5000,
 
     history = world.history if hasattr(world, "history") else []
 
-    t_list, area_list = [], []
-    for t, grid, _ in history:
+    t_list = []
+    area_list = []
+    min_dist_list = []
+    mean_dist_list = []
+
+    for t, grid, positions in history:
         t_list.append(t)
         area_list.append(visited_area(grid))
+        if n_ants >= 2:
+            md = min_pairwise_distance(positions)
+            ad = mean_pairwise_distance(positions)
+            min_dist_list.append(md if md is not None else 0.0)
+            mean_dist_list.append(ad if ad is not None else 0.0)
 
     return {
         "world": world,
@@ -120,4 +131,6 @@ def run_l3_scenario(n_ants=2, width=100, height=100, steps=5000,
         "t": t_list,
         "area": area_list,
         "n_ants": n_ants,
+        "min_dist": min_dist_list,
+        "mean_dist": mean_dist_list,
     }

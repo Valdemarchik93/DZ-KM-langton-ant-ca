@@ -133,3 +133,44 @@ def save_frame(history, t_target, path, q=2):
             print(f"[visualize] Кадр сохранён: {path}")
             return
     print(f"[visualize] Шаг {t_target} не найден")
+
+def plot_interaction_metrics(result, path=None):
+    """Строит два графика: расстояние между муравьями и площадь на муравья."""
+    t = result["t"]
+    n = result["n_ants"]
+    area = result["area"]
+
+    fig, axes = plt.subplots(1, 2, figsize=(14, 5))
+
+    # 1. Расстояния
+    ax = axes[0]
+    if n >= 2 and result["min_dist"]:
+        ax.plot(t, result["mean_dist"], linewidth=2, color="#4DAF4A",
+                label="Среднее расстояние")
+        ax.plot(t, result["min_dist"], linewidth=2, color="#E41A1C",
+                linestyle="--", label="Минимальное расстояние")
+        ax.set_xlabel("Время (шаги)")
+        ax.set_ylabel("Расстояние (клетки)")
+        ax.set_title("Расстояние между муравьями")
+        ax.legend()
+        ax.grid(True, alpha=0.3)
+    else:
+        ax.text(0.5, 0.5, f"Один муравей — нечего\nизмерять",
+                ha="center", va="center", transform=ax.transAxes)
+        ax.set_xticks([]); ax.set_yticks([])
+
+    # 2. Площадь на муравья (эффективность)
+    ax = axes[1]
+    eff = [a / n for a in area]
+    ax.plot(t, eff, linewidth=2, color="#377EB8")
+    ax.set_xlabel("Время (шаги)")
+    ax.set_ylabel("Площадь / муравей (клеток)")
+    ax.set_title(f"Эффективность (n = {n})")
+    ax.grid(True, alpha=0.3)
+
+    fig.suptitle("Метрики взаимодействия муравьёв", fontsize=14)
+    plt.tight_layout()
+    if path:
+        fig.savefig(path, dpi=120, bbox_inches="tight")
+        plt.close(fig)
+    return fig
