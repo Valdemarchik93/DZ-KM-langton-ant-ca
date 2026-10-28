@@ -64,20 +64,34 @@ q цветов, строка правил из R/L/F/U. Перебираем в�
 
 ## 🎮 Уровень 3 — Несколько муравьёв
 
-n муравьёв на общем поле. Два режима обновления: sequential и synchronous.
+`n` муравьёв на общем поле. Реализованы два режима обновления (**sequential** и **synchronous**) и правила столкновений.
+
+**Метрики взаимодействия для трёх сценариев:**
 
 <p align="center">
-  <img src="results/l3_seq_2/interaction_metrics.png" alt="Метрики L3" width="600"/>
+  <img src="results/l3_seq_2/interaction_metrics.png" alt="2 муравья, sequential" width="32%"/>
+  <img src="results/l3_sync_2/interaction_metrics.png" alt="2 муравья, synchronous" width="32%"/>
+  <img src="results/l3_seq_3/interaction_metrics.png" alt="3 муравья, sequential" width="32%"/>
+</p>
+*(Слева направо: 2 муравья (последовательный), 2 муравья (синхронный), 3 муравья)*
+
+**Ключевой вывод:**
+> Графики показывают, что при отсутствии прямых столкновений среднее расстояние между муравьями остаётся постоянным, а эффективность (площадь на муравья) растёт одинаково. Sequential и synchronous дают **визуально идентичные** структуры, так как агенты не пересекаются за 3000 шагов.
+
+**Финальные кадры:**
+
+<p align="center">
+  <img src="results/l3_seq_2/final_frame.png" alt="2 муравья seq" width="30%"/>
+  <img src="results/l3_sync_2/final_frame.png" alt="2 муравья sync" width="30%"/>
+  <img src="results/l3_seq_3/final_frame.png" alt="3 муравья seq" width="30%"/>
 </p>
 
-Ключевой вывод:
-При отсутствии прямых столкновений sequential и synchronous дают визуально идентичные структуры — значит, порядок обновления влияет только при реальном взаимодействии агентов.
-
-Финальные кадры (2 и 3 муравья):
+**Анимации движения муравьёв:**
 
 <p align="center">
-  <img src="results/l3_seq_2/final_frame.png" alt="2 муравья" width="45%"/>
-  <img src="results/l3_seq_3/final_frame.png" alt="3 муравья" width="45%"/>
+  <img src="results/l3_seq_2/animation.gif" alt="GIF 2 seq" width="32%"/>
+  <img src="results/l3_sync_2/animation.gif" alt="GIF 2 sync" width="32%"/>
+  <img src="results/l3_seq_3/animation.gif" alt="GIF 3 seq" width="32%"/>
 </p>
 
 **Анимация движения муравьёв:**
