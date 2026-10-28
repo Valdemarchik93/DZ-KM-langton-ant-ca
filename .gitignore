@@ -1,0 +1,23 @@
+Set-Content -Path .gitignore -Encoding UTF8 -Value @'
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Results
+results/
+*.gif
+*.png
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+'@
