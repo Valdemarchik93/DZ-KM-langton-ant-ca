@@ -80,17 +80,17 @@ pip install -r requirements.txt
 
 ## ⚡ Быстрый старт
 
-# Все тесты
+## Все тесты
 python -m pytest tests/ -v
 
-# L1 — хайвей
+## L1 — хайвей
 python -m src.main run-l1 --steps 15000 --boundary expand --output results/l1_expand
 
-# L2 — полный sweep
+## L2 — полный sweep
 python -m src.main sweep-l2 --max-q 4 --steps 2000
 python -m src.analyze
 
-# L3 — сравнение sequential vs synchronous
+## L3 — сравнение sequential vs synchronous
 python -m src.main run-l3 --ants 2 --update sequential --output results/l3_seq
 python -m src.main run-l3 --ants 2 --update synchronous --output results/l3_sync
 
