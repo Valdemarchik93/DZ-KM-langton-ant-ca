@@ -1,0 +1,2018 @@
+[
+  {
+    "rule": "RR",
+    "q": 2,
+    "regime": "bounded",
+    "final_area": 0
+  },
+  {
+    "rule": "RL",
+    "q": 2,
+    "regime": "highway",
+    "final_area": 202
+  },
+  {
+    "rule": "RF",
+    "q": 2,
+    "regime": "highway",
+    "final_area": 28
+  },
+  {
+    "rule": "RU",
+    "q": 2,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "LR",
+    "q": 2,
+    "regime": "highway",
+    "final_area": 202
+  },
+  {
+    "rule": "LL",
+    "q": 2,
+    "regime": "bounded",
+    "final_area": 0
+  },
+  {
+    "rule": "LF",
+    "q": 2,
+    "regime": "highway",
+    "final_area": 28
+  },
+  {
+    "rule": "LU",
+    "q": 2,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "FR",
+    "q": 2,
+    "regime": "bounded",
+    "final_area": 276
+  },
+  {
+    "rule": "FL",
+    "q": 2,
+    "regime": "bounded",
+    "final_area": 276
+  },
+  {
+    "rule": "FF",
+    "q": 2,
+    "regime": "bounded",
+    "final_area": 0
+  },
+  {
+    "rule": "FU",
+    "q": 2,
+    "regime": "bounded",
+    "final_area": 20
+  },
+  {
+    "rule": "UR",
+    "q": 2,
+    "regime": "bounded",
+    "final_area": 4
+  },
+  {
+    "rule": "UL",
+    "q": 2,
+    "regime": "bounded",
+    "final_area": 4
+  },
+  {
+    "rule": "UF",
+    "q": 2,
+    "regime": "bounded",
+    "final_area": 8
+  },
+  {
+    "rule": "UU",
+    "q": 2,
+    "regime": "bounded",
+    "final_area": 0
+  },
+  {
+    "rule": "RRR",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 4
+  },
+  {
+    "rule": "RRL",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 237
+  },
+  {
+    "rule": "RRF",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 16
+  },
+  {
+    "rule": "RRU",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 158
+  },
+  {
+    "rule": "RLR",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 214
+  },
+  {
+    "rule": "RLL",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 194
+  },
+  {
+    "rule": "RLF",
+    "q": 3,
+    "regime": "unbounded",
+    "final_area": 210
+  },
+  {
+    "rule": "RLU",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 8
+  },
+  {
+    "rule": "RFR",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 18
+  },
+  {
+    "rule": "RFL",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 235
+  },
+  {
+    "rule": "RFF",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 32
+  },
+  {
+    "rule": "RFU",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 189
+  },
+  {
+    "rule": "RUR",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 8
+  },
+  {
+    "rule": "RUL",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 61
+  },
+  {
+    "rule": "RUF",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 156
+  },
+  {
+    "rule": "RUU",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "LRR",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 194
+  },
+  {
+    "rule": "LRL",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 214
+  },
+  {
+    "rule": "LRF",
+    "q": 3,
+    "regime": "unbounded",
+    "final_area": 210
+  },
+  {
+    "rule": "LRU",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 8
+  },
+  {
+    "rule": "LLR",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 237
+  },
+  {
+    "rule": "LLL",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 4
+  },
+  {
+    "rule": "LLF",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 16
+  },
+  {
+    "rule": "LLU",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 158
+  },
+  {
+    "rule": "LFR",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 235
+  },
+  {
+    "rule": "LFL",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 18
+  },
+  {
+    "rule": "LFF",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 32
+  },
+  {
+    "rule": "LFU",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 189
+  },
+  {
+    "rule": "LUR",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 61
+  },
+  {
+    "rule": "LUL",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 8
+  },
+  {
+    "rule": "LUF",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 156
+  },
+  {
+    "rule": "LUU",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "FRR",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 384
+  },
+  {
+    "rule": "FRL",
+    "q": 3,
+    "regime": "unbounded",
+    "final_area": 1945
+  },
+  {
+    "rule": "FRF",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 286
+  },
+  {
+    "rule": "FRU",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 1316
+  },
+  {
+    "rule": "FLR",
+    "q": 3,
+    "regime": "unbounded",
+    "final_area": 1945
+  },
+  {
+    "rule": "FLL",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 384
+  },
+  {
+    "rule": "FLF",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 286
+  },
+  {
+    "rule": "FLU",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 1316
+  },
+  {
+    "rule": "FFR",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 284
+  },
+  {
+    "rule": "FFL",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 284
+  },
+  {
+    "rule": "FFF",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 100
+  },
+  {
+    "rule": "FFU",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 91
+  },
+  {
+    "rule": "FUR",
+    "q": 3,
+    "regime": "unbounded",
+    "final_area": 1450
+  },
+  {
+    "rule": "FUL",
+    "q": 3,
+    "regime": "unbounded",
+    "final_area": 1450
+  },
+  {
+    "rule": "FUF",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 99
+  },
+  {
+    "rule": "FUU",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 76
+  },
+  {
+    "rule": "URR",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 78
+  },
+  {
+    "rule": "URL",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 4
+  },
+  {
+    "rule": "URF",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 133
+  },
+  {
+    "rule": "URU",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "ULR",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 4
+  },
+  {
+    "rule": "ULL",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 78
+  },
+  {
+    "rule": "ULF",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 133
+  },
+  {
+    "rule": "ULU",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "UFR",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 162
+  },
+  {
+    "rule": "UFL",
+    "q": 3,
+    "regime": "highway",
+    "final_area": 162
+  },
+  {
+    "rule": "UFF",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 10
+  },
+  {
+    "rule": "UFU",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "UUR",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "UUL",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "UUF",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 45
+  },
+  {
+    "rule": "UUU",
+    "q": 3,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "RRRR",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 0
+  },
+  {
+    "rule": "RRRL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 234
+  },
+  {
+    "rule": "RRRF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 20
+  },
+  {
+    "rule": "RRRU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 173
+  },
+  {
+    "rule": "RRLR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 186
+  },
+  {
+    "rule": "RRLL",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 79
+  },
+  {
+    "rule": "RRLF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 376
+  },
+  {
+    "rule": "RRLU",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 598
+  },
+  {
+    "rule": "RRFR",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 16
+  },
+  {
+    "rule": "RRFL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 146
+  },
+  {
+    "rule": "RRFF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 31
+  },
+  {
+    "rule": "RRFU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 124
+  },
+  {
+    "rule": "RRUR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 105
+  },
+  {
+    "rule": "RRUL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 184
+  },
+  {
+    "rule": "RRUF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 173
+  },
+  {
+    "rule": "RRUU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 76
+  },
+  {
+    "rule": "RLRR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 269
+  },
+  {
+    "rule": "RLRL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 280
+  },
+  {
+    "rule": "RLRF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 216
+  },
+  {
+    "rule": "RLRU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 91
+  },
+  {
+    "rule": "RLLR",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 188
+  },
+  {
+    "rule": "RLLL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 227
+  },
+  {
+    "rule": "RLLF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 256
+  },
+  {
+    "rule": "RLLU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 163
+  },
+  {
+    "rule": "RLFR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 303
+  },
+  {
+    "rule": "RLFL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 219
+  },
+  {
+    "rule": "RLFF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 256
+  },
+  {
+    "rule": "RLFU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 198
+  },
+  {
+    "rule": "RLUR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 108
+  },
+  {
+    "rule": "RLUL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 310
+  },
+  {
+    "rule": "RLUF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 368
+  },
+  {
+    "rule": "RLUU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 6
+  },
+  {
+    "rule": "RFRR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 22
+  },
+  {
+    "rule": "RFRL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 233
+  },
+  {
+    "rule": "RFRF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 32
+  },
+  {
+    "rule": "RFRU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 196
+  },
+  {
+    "rule": "RFLR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 214
+  },
+  {
+    "rule": "RFLL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 282
+  },
+  {
+    "rule": "RFLF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 236
+  },
+  {
+    "rule": "RFLU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 231
+  },
+  {
+    "rule": "RFFR",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 23
+  },
+  {
+    "rule": "RFFL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 278
+  },
+  {
+    "rule": "RFFF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 42
+  },
+  {
+    "rule": "RFFU",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 335
+  },
+  {
+    "rule": "RFUR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 168
+  },
+  {
+    "rule": "RFUL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 277
+  },
+  {
+    "rule": "RFUF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 243
+  },
+  {
+    "rule": "RFUU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 210
+  },
+  {
+    "rule": "RURR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 395
+  },
+  {
+    "rule": "RURL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 76
+  },
+  {
+    "rule": "RURF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 140
+  },
+  {
+    "rule": "RURU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "RULR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 201
+  },
+  {
+    "rule": "RULL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 640
+  },
+  {
+    "rule": "RULF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 192
+  },
+  {
+    "rule": "RULU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 190
+  },
+  {
+    "rule": "RUFR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 244
+  },
+  {
+    "rule": "RUFL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 136
+  },
+  {
+    "rule": "RUFF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 167
+  },
+  {
+    "rule": "RUFU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 23
+  },
+  {
+    "rule": "RUUR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 66
+  },
+  {
+    "rule": "RUUL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 65
+  },
+  {
+    "rule": "RUUF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 205
+  },
+  {
+    "rule": "RUUU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 4
+  },
+  {
+    "rule": "LRRR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 227
+  },
+  {
+    "rule": "LRRL",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 188
+  },
+  {
+    "rule": "LRRF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 256
+  },
+  {
+    "rule": "LRRU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 163
+  },
+  {
+    "rule": "LRLR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 280
+  },
+  {
+    "rule": "LRLL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 269
+  },
+  {
+    "rule": "LRLF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 216
+  },
+  {
+    "rule": "LRLU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 91
+  },
+  {
+    "rule": "LRFR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 219
+  },
+  {
+    "rule": "LRFL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 303
+  },
+  {
+    "rule": "LRFF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 256
+  },
+  {
+    "rule": "LRFU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 198
+  },
+  {
+    "rule": "LRUR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 310
+  },
+  {
+    "rule": "LRUL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 108
+  },
+  {
+    "rule": "LRUF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 368
+  },
+  {
+    "rule": "LRUU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 6
+  },
+  {
+    "rule": "LLRR",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 79
+  },
+  {
+    "rule": "LLRL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 186
+  },
+  {
+    "rule": "LLRF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 376
+  },
+  {
+    "rule": "LLRU",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 598
+  },
+  {
+    "rule": "LLLR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 234
+  },
+  {
+    "rule": "LLLL",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 0
+  },
+  {
+    "rule": "LLLF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 20
+  },
+  {
+    "rule": "LLLU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 173
+  },
+  {
+    "rule": "LLFR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 146
+  },
+  {
+    "rule": "LLFL",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 16
+  },
+  {
+    "rule": "LLFF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 31
+  },
+  {
+    "rule": "LLFU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 124
+  },
+  {
+    "rule": "LLUR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 184
+  },
+  {
+    "rule": "LLUL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 105
+  },
+  {
+    "rule": "LLUF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 173
+  },
+  {
+    "rule": "LLUU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 76
+  },
+  {
+    "rule": "LFRR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 282
+  },
+  {
+    "rule": "LFRL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 214
+  },
+  {
+    "rule": "LFRF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 236
+  },
+  {
+    "rule": "LFRU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 231
+  },
+  {
+    "rule": "LFLR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 233
+  },
+  {
+    "rule": "LFLL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 22
+  },
+  {
+    "rule": "LFLF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 32
+  },
+  {
+    "rule": "LFLU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 196
+  },
+  {
+    "rule": "LFFR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 278
+  },
+  {
+    "rule": "LFFL",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 23
+  },
+  {
+    "rule": "LFFF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 42
+  },
+  {
+    "rule": "LFFU",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 335
+  },
+  {
+    "rule": "LFUR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 277
+  },
+  {
+    "rule": "LFUL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 168
+  },
+  {
+    "rule": "LFUF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 243
+  },
+  {
+    "rule": "LFUU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 210
+  },
+  {
+    "rule": "LURR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 640
+  },
+  {
+    "rule": "LURL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 201
+  },
+  {
+    "rule": "LURF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 192
+  },
+  {
+    "rule": "LURU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 190
+  },
+  {
+    "rule": "LULR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 76
+  },
+  {
+    "rule": "LULL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 395
+  },
+  {
+    "rule": "LULF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 140
+  },
+  {
+    "rule": "LULU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "LUFR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 136
+  },
+  {
+    "rule": "LUFL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 244
+  },
+  {
+    "rule": "LUFF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 167
+  },
+  {
+    "rule": "LUFU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 23
+  },
+  {
+    "rule": "LUUR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 65
+  },
+  {
+    "rule": "LUUL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 66
+  },
+  {
+    "rule": "LUUF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 205
+  },
+  {
+    "rule": "LUUU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 4
+  },
+  {
+    "rule": "FRRR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1157
+  },
+  {
+    "rule": "FRRL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1523
+  },
+  {
+    "rule": "FRRF",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1421
+  },
+  {
+    "rule": "FRRU",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1439
+  },
+  {
+    "rule": "FRLR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1963
+  },
+  {
+    "rule": "FRLL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1963
+  },
+  {
+    "rule": "FRLF",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1963
+  },
+  {
+    "rule": "FRLU",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1963
+  },
+  {
+    "rule": "FRFR",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 290
+  },
+  {
+    "rule": "FRFL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1602
+  },
+  {
+    "rule": "FRFF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 279
+  },
+  {
+    "rule": "FRFU",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1697
+  },
+  {
+    "rule": "FRUR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1573
+  },
+  {
+    "rule": "FRUL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1520
+  },
+  {
+    "rule": "FRUF",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1559
+  },
+  {
+    "rule": "FRUU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 1332
+  },
+  {
+    "rule": "FLRR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1963
+  },
+  {
+    "rule": "FLRL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1963
+  },
+  {
+    "rule": "FLRF",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1963
+  },
+  {
+    "rule": "FLRU",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1963
+  },
+  {
+    "rule": "FLLR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1523
+  },
+  {
+    "rule": "FLLL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1157
+  },
+  {
+    "rule": "FLLF",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1421
+  },
+  {
+    "rule": "FLLU",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1439
+  },
+  {
+    "rule": "FLFR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1602
+  },
+  {
+    "rule": "FLFL",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 290
+  },
+  {
+    "rule": "FLFF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 279
+  },
+  {
+    "rule": "FLFU",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1697
+  },
+  {
+    "rule": "FLUR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1520
+  },
+  {
+    "rule": "FLUL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1573
+  },
+  {
+    "rule": "FLUF",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1559
+  },
+  {
+    "rule": "FLUU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 1332
+  },
+  {
+    "rule": "FFRR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1061
+  },
+  {
+    "rule": "FFRL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1848
+  },
+  {
+    "rule": "FFRF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 286
+  },
+  {
+    "rule": "FFRU",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 968
+  },
+  {
+    "rule": "FFLR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1848
+  },
+  {
+    "rule": "FFLL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1061
+  },
+  {
+    "rule": "FFLF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 286
+  },
+  {
+    "rule": "FFLU",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 968
+  },
+  {
+    "rule": "FFFR",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 285
+  },
+  {
+    "rule": "FFFL",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 285
+  },
+  {
+    "rule": "FFFF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 0
+  },
+  {
+    "rule": "FFFU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 81
+  },
+  {
+    "rule": "FFUR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 872
+  },
+  {
+    "rule": "FFUL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 872
+  },
+  {
+    "rule": "FFUF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 99
+  },
+  {
+    "rule": "FFUU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 96
+  },
+  {
+    "rule": "FURR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1841
+  },
+  {
+    "rule": "FURL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 842
+  },
+  {
+    "rule": "FURF",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1440
+  },
+  {
+    "rule": "FURU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 286
+  },
+  {
+    "rule": "FULR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 842
+  },
+  {
+    "rule": "FULL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1841
+  },
+  {
+    "rule": "FULF",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1440
+  },
+  {
+    "rule": "FULU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 286
+  },
+  {
+    "rule": "FUFR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1517
+  },
+  {
+    "rule": "FUFL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1517
+  },
+  {
+    "rule": "FUFF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 95
+  },
+  {
+    "rule": "FUFU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 20
+  },
+  {
+    "rule": "FUUR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1445
+  },
+  {
+    "rule": "FUUL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 1445
+  },
+  {
+    "rule": "FUUF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 99
+  },
+  {
+    "rule": "FUUU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 55
+  },
+  {
+    "rule": "URRR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 428
+  },
+  {
+    "rule": "URRL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 123
+  },
+  {
+    "rule": "URRF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 142
+  },
+  {
+    "rule": "URRU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 234
+  },
+  {
+    "rule": "URLR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 43
+  },
+  {
+    "rule": "URLL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 86
+  },
+  {
+    "rule": "URLF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 471
+  },
+  {
+    "rule": "URLU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 7
+  },
+  {
+    "rule": "URFR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 126
+  },
+  {
+    "rule": "URFL",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 544
+  },
+  {
+    "rule": "URFF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 104
+  },
+  {
+    "rule": "URFU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 108
+  },
+  {
+    "rule": "URUR",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 4
+  },
+  {
+    "rule": "URUL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 169
+  },
+  {
+    "rule": "URUF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 26
+  },
+  {
+    "rule": "URUU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 4
+  },
+  {
+    "rule": "ULRR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 86
+  },
+  {
+    "rule": "ULRL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 43
+  },
+  {
+    "rule": "ULRF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 471
+  },
+  {
+    "rule": "ULRU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 7
+  },
+  {
+    "rule": "ULLR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 123
+  },
+  {
+    "rule": "ULLL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 428
+  },
+  {
+    "rule": "ULLF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 142
+  },
+  {
+    "rule": "ULLU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 234
+  },
+  {
+    "rule": "ULFR",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 544
+  },
+  {
+    "rule": "ULFL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 126
+  },
+  {
+    "rule": "ULFF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 104
+  },
+  {
+    "rule": "ULFU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 108
+  },
+  {
+    "rule": "ULUR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 169
+  },
+  {
+    "rule": "ULUL",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 4
+  },
+  {
+    "rule": "ULUF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 26
+  },
+  {
+    "rule": "ULUU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 4
+  },
+  {
+    "rule": "UFRR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 157
+  },
+  {
+    "rule": "UFRL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 320
+  },
+  {
+    "rule": "UFRF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 237
+  },
+  {
+    "rule": "UFRU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 135
+  },
+  {
+    "rule": "UFLR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 320
+  },
+  {
+    "rule": "UFLL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 157
+  },
+  {
+    "rule": "UFLF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 237
+  },
+  {
+    "rule": "UFLU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 135
+  },
+  {
+    "rule": "UFFR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 110
+  },
+  {
+    "rule": "UFFL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 110
+  },
+  {
+    "rule": "UFFF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 85
+  },
+  {
+    "rule": "UFFU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 11
+  },
+  {
+    "rule": "UFUR",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 291
+  },
+  {
+    "rule": "UFUL",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 291
+  },
+  {
+    "rule": "UFUF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 11
+  },
+  {
+    "rule": "UFUU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 77
+  },
+  {
+    "rule": "UURR",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 375
+  },
+  {
+    "rule": "UURL",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 6
+  },
+  {
+    "rule": "UURF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 91
+  },
+  {
+    "rule": "UURU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "UULR",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 6
+  },
+  {
+    "rule": "UULL",
+    "q": 4,
+    "regime": "unbounded",
+    "final_area": 375
+  },
+  {
+    "rule": "UULF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 91
+  },
+  {
+    "rule": "UULU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "UUFR",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 88
+  },
+  {
+    "rule": "UUFL",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 88
+  },
+  {
+    "rule": "UUFF",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 8
+  },
+  {
+    "rule": "UUFU",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 85
+  },
+  {
+    "rule": "UUUR",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "UUUL",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 2
+  },
+  {
+    "rule": "UUUF",
+    "q": 4,
+    "regime": "highway",
+    "final_area": 61
+  },
+  {
+    "rule": "UUUU",
+    "q": 4,
+    "regime": "bounded",
+    "final_area": 0
+  }
+]
