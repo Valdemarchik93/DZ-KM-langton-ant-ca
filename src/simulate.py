@@ -5,6 +5,7 @@ from itertools import product
 
 from src.ant import LangtonAnt
 from src.multi_color_ant import MultiColorAnt, VALID_COMMANDS
+from src.multi_ant import MultiAntWorld
 from src.metrics import (
     black_ratio,
     visited_area,
@@ -70,15 +71,12 @@ def run_l2_scenario(rule, width=150, height=150, steps=5000,
 def run_l2_sweep(max_q=4, steps=2000, width=100, height=100):
     """Перебирает все правила длины q от 2 до max_q и классифицирует."""
     results = []
-
     for q in range(2, max_q + 1):
         for combo in product(VALID_COMMANDS, repeat=q):
             rule = "".join(combo)
-
             ant = MultiColorAnt(rule, width=width, height=height,
                                 boundary="torus")
             area_history = [0]
-
             for t in range(1, steps + 1):
                 ant.step()
                 if t % 50 == 0:
@@ -94,5 +92,32 @@ def run_l2_sweep(max_q=4, steps=2000, width=100, height=100):
                 "regime": regime,
                 "final_area": final_area,
             })
-
     return results
+
+
+def run_l3_scenario(n_ants=2, width=100, height=100, steps=5000,
+                    update="sequential", collisions="allow",
+                    boundary="torus", record_every=25,
+                    rules=None, start_positions=None):
+    """Запускает один сценарий L3."""
+    world = MultiAntWorld(
+        width=width, height=height, n_ants=n_ants,
+        update=update, collisions=collisions, boundary=boundary,
+        rules=rules, start_positions=start_positions,
+    )
+    world.run(steps, record_every=record_every)
+
+    history = world.history if hasattr(world, "history") else []
+
+    t_list, area_list = [], []
+    for t, grid, _ in history:
+        t_list.append(t)
+        area_list.append(visited_area(grid))
+
+    return {
+        "world": world,
+        "history": history,
+        "t": t_list,
+        "area": area_list,
+        "n_ants": n_ants,
+    }
